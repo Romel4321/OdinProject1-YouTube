@@ -1,0 +1,170 @@
+/* GLOBAL RESET VALUES */ 
+
+/*
+    Tripoli is a generic CSS standard for HTML rendering. 
+    Copyright (C) 2007  David Hellsing
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+
+*{
+  border: 1px solid red !important;
+
+}
+* {
+	text-decoration: none;
+	font-size: 1em;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	}
+code, kbd, samp, pre, tt, var, textarea, 
+input, select, isindex, listing, xmp, plaintext {
+	white-space: normal;
+	font-size: 1em;
+	font: inherit;
+	}
+dfn, i, cite, var, address, em { 
+	font-style: normal; 
+	}
+th, b, strong, h1, h2, h3, h4, h5, h6 { 
+	font-weight: normal; 
+	}
+a, img, a img, iframe, form, fieldset, 
+abbr, acronym, object, applet, table {
+	border: none; 
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+caption, th, td, center { 
+	vertical-align: top;
+	text-align: left;
+	}
+body { 
+	background: white; 
+	line-height: 1; 
+	color: black; 
+	}
+q { 
+	quotes: "" ""; 
+	}
+ul, ol, dir, menu { 
+	list-style: none; 
+	}
+sub, sup { 
+	vertical-align: baseline; 
+	}
+a { 
+	color: inherit; 
+	}
+hr { 
+	display: none; 
+	}
+font { 
+	color: inherit !important; 
+	font: inherit !important; 
+	color: inherit !important; /* editor's note: necessary? */ 
+	}
+marquee {
+	overflow: inherit !important;
+	-moz-binding: none;
+	}
+blink { 
+	text-decoration: none; 
+	}
+nobr { 
+	white-space: normal; 
+    }
+    
+    
+    /*HEADING SECTION*/
+
+             
+      .lwrap-hwrap_hgrp_flexbox_btnsnavba li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+      }
+
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar {
+        background-color: yellow;
+        list-style-type: none;
+        text-align: center; 
+        padding: 0;
+        margin: 0;
+      }
+
+
+      /*SUBSCRIBER SECTION*/
+
+      .lwrap_hwrap_inline_subinfo {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .inline_subinfo_head {
+        display: block;
+        width: 60px;
+        background-color: #dddddd;
+      }
+
+    /* 1st Button class */
+      .lwrap_hwrap_inline_btn{
+        background-color:red; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+
+
+      /* BEGIN OF COMMENTS and SORT SECTION*/
+      /*2nd Button class */
+
+      .showmore{
+        background-color:red; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      
+      .lwrap_hwrap_inline_listed {
+        list-style-image: url('sqpurple.gif');
+      }
+
+
+      /* MY COMMENT SECTION*/
+
+      .lwrap_hwrap_inline_listed {
+        list-style-image: url('sqpurple.gif');
+      }
+
+
+     /*GENERAL COMMENT SECTION*/
+     .lwrap_hwrap_inline_listed_general {
+     list-style-image: url('sqpurple.gif');
+    }
