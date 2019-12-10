@@ -1,7 +1,9 @@
-/* GLOBAL RESET VALUES */ 
+
+
+/* GLOBAL RESET VALUES */
 
 /*
-    Tripoli is a generic CSS standard for HTML rendering. 
+    Tripoli is a generic CSS standard for HTML rendering.
     Copyright (C) 2007  David Hellsing
 
     This program is free software: you can redistribute it and/or modify
@@ -17,13 +19,13 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
-
+/*
 
 *{
   border: 1px solid green !important;
 
-}
+} */
+
 * {
 	text-decoration: none;
 	font-size: 1em;
@@ -31,66 +33,72 @@
 	padding: 0;
 	margin: 0;
 	}
-code, kbd, samp, pre, tt, var, textarea, 
+code, kbd, samp, pre, tt, var, textarea,
 input, select, isindex, listing, xmp, plaintext {
 	white-space: normal;
 	font-size: 1em;
 	font: inherit;
 	}
-dfn, i, cite, var, address, em { 
-	font-style: normal; 
+dfn, i, cite, var, address, em {
+	font-style: normal;
 	}
+<<<<<<< HEAD
 th, b, strong, h1, h2, h3, h4, h5, h6 { 
   font-weight: normal; 
   color:yellow;
+=======
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+>>>>>>> c79a21e7101e2912b6249c38dd948034e75b747d
 	}
-a, img, a img, iframe, form, fieldset, 
+a, img, a img, iframe, form, fieldset,
 abbr, acronym, object, applet, table {
-	border: none; 
+	border: none;
 	}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	}
-caption, th, td, center { 
+caption, th, td, center {
 	vertical-align: top;
 	text-align: left;
 	}
-body { 
-	background: white; 
-	line-height: 1; 
-	color: black; 
+body {
+	background: white;
+	line-height: 1;
+	color: black;
 	}
-q { 
-	quotes: "" ""; 
+q {
+	quotes: "" "";
 	}
-ul, ol, dir, menu { 
-	list-style: none; 
+ul, ol, dir, menu {
+	list-style: none;
 	}
-sub, sup { 
-	vertical-align: baseline; 
+sub, sup {
+	vertical-align: baseline;
 	}
-a { 
-	color: inherit; 
+a {
+	color: inherit;
 	}
-hr { 
-	display: none; 
+hr {
+	display: none;
 	}
-font { 
-	color: inherit !important; 
-	font: inherit !important; 
-	color: inherit !important; /* editor's note: necessary? */ 
+font {
+	color: inherit !important;
+	font: inherit !important;
+	color: inherit !important; /* editor's note: necessary? */
 	}
 marquee {
 	overflow: inherit !important;
 	-moz-binding: none;
 	}
-blink { 
-	text-decoration: none; 
+blink {
+	text-decoration: none;
 	}
-nobr { 
-	white-space: normal; 
+nobr {
+	white-space: normal;
     }
+<<<<<<< HEAD
     
 /*OVERALL MAIN SECTION STRUCTURE*/
 
@@ -114,6 +122,74 @@ nobr {
 
       .lwrap-hwrap_hgrp_flexbox :only-child{
         color:green;
+=======
+
+
+/*NAVIGATION BAR*/
+.navbar{
+  display: block;
+  z-index: 2;
+  position: sticky;
+  top: 3px;
+  padding-left: 12px;
+}
+
+.navbar_left-section-wrapper{
+display: inline-block;
+width: 20%;
+}
+
+.navbar_left-section-wrapper_image{
+position: relative;
+transform: scale(0.7, 0.7);
+top: 10px;
+}
+
+
+.navbar_search-bar-wrapper{
+display: inline-block;
+width: 60%;
+
+}
+
+.navbar_search-bar-wrapper_input-text{
+display: inline-block;
+width: 80%;
+height: 30px;
+}
+
+.navbar_search-bar-wraper_input-format{
+width: 100%;
+height: 30px;
+}
+
+
+.navbar_search-bar-wrapper_magnifying-glass{
+display: inline-block;
+
+
+}
+
+.navbar_right-section-wrapper{
+display:inline;
+}
+
+
+#grid{
+position:relative;
+top: 3px;
+
+
+}
+
+    /*HEADING SECTION*/
+
+
+      .lwrap-hwrap_hgrp_flexbox_btnsnavba li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+>>>>>>> c79a21e7101e2912b6249c38dd948034e75b747d
       }
       /*Selector not working*/
      
@@ -136,7 +212,11 @@ nobr {
       .lwrap-hwrap_hgrp_flexbox_btnsnavbar {
         background-color: red;
         list-style-type: none;
+<<<<<<< HEAD
         text-align: right; 
+=======
+        text-align: center;
+>>>>>>> c79a21e7101e2912b6249c38dd948034e75b747d
         padding: 0;
         margin-bottom:solid red;
         margin: 0% 20%; /*Margin length CSS Property for hand underline*/ 
@@ -158,7 +238,7 @@ nobr {
         margin: 0;
         padding: 0;
       }
-      
+
       .inline_subinfo_head {
         display: block;
         width: 60px;
@@ -183,7 +263,7 @@ nobr {
       /*2nd Button class */
 
       .showmore{
-        background-color:red; 
+        background-color:red;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -192,7 +272,7 @@ nobr {
         display: inline-block;
         font-size: 16px;
       }
-      
+
       .lwrap_hwrap_inline_listed {
         list-style-image: url('sqpurple.gif');
       }
