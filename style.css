@@ -21,7 +21,7 @@
 
 
 *{
-  border: 1px solid red !important;
+  border: 1px solid green !important;
 
 }
 * {
@@ -41,7 +41,8 @@ dfn, i, cite, var, address, em {
 	font-style: normal; 
 	}
 th, b, strong, h1, h2, h3, h4, h5, h6 { 
-	font-weight: normal; 
+  font-weight: normal; 
+  color:yellow;
 	}
 a, img, a img, iframe, form, fieldset, 
 abbr, acronym, object, applet, table {
@@ -91,23 +92,63 @@ nobr {
 	white-space: normal; 
     }
     
+/*OVERALL MAIN SECTION STRUCTURE*/
+
+.mainwrap{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+}
+
+
+
+
+
     
-    /*HEADING SECTION*/
+    /*LEFT HEADING SECTION*/
+     
 
-             
-      .lwrap-hwrap_hgrp_flexbox_btnsnavba li {
-        display: inline-block;
-        font-size: 20px;
-        padding: 20px;
+
+
+
+
+      .lwrap-hwrap_hgrp_flexbox :only-child{
+        color:green;
+      }
+      /*Selector not working*/
+     
+      .lwrap-hwrap_hgrp :first-child{ /*Selector not working- Gremlins here*/
+        color:yellow;
+        font-family: 'Roboto', sans-serif;
+        font-size:medium;
+        font-weight:4005000;
+        line-height:1.5em;
+        word-spacing:normal;
+
+
       }
 
+      .chicken{
+
+        color:pink;
+      }
+  
       .lwrap-hwrap_hgrp_flexbox_btnsnavbar {
-        background-color: yellow;
+        background-color: red;
         list-style-type: none;
-        text-align: center; 
+        text-align: right; 
         padding: 0;
-        margin: 0;
+        margin-bottom:solid red;
+        margin: 0% 20%; /*Margin length CSS Property for hand underline*/ 
+
       }
+
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar li{
+        display:inline;
+
+      }
+
+
 
 
       /*SUBSCRIBER SECTION*/
