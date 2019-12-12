@@ -19,12 +19,11 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-/*
+
 
 *{
   border: 1px solid green !important;
-
-} */
+} 
 
 * {
 	text-decoration: none;
@@ -33,121 +32,122 @@
 	padding: 0;
 	margin: 0;
 	}
-code, kbd, samp, pre, tt, var, textarea,
-input, select, isindex, listing, xmp, plaintext {
-	white-space: normal;
-	font-size: 1em;
-	font: inherit;
-	}
-dfn, i, cite, var, address, em {
-	font-style: normal;
-	}
-th, b, strong, h1, h2, h3, h4, h5, h6 { 
-  font-weight: normal; 
-  color:yellow;
-	}
-a, img, a img, iframe, form, fieldset,
-abbr, acronym, object, applet, table {
-	border: none;
-	}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	}
-caption, th, td, center {
-	vertical-align: top;
-	text-align: left;
-	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
-q {
-	quotes: "" "";
-	}
-ul, ol, dir, menu {
-	list-style: none;
-	}
-sub, sup {
-	vertical-align: baseline;
-	}
-a {
-	color: inherit;
-	}
-hr {
-	display: none;
-	}
-font {
-	color: inherit !important;
-	font: inherit !important;
-	color: inherit !important; /* editor's note: necessary? */
-	}
-marquee {
-	overflow: inherit !important;
-	-moz-binding: none;
-	}
-blink {
-	text-decoration: none;
-	}
-nobr {
-	white-space: normal;
-    }
+
     
 /*OVERALL MAIN SECTION STRUCTURE*/
 
 .mainwrap{
-    display:flex;
-    flex-direction: row;
-    position:relative;
+  display: GRID;
+  grid-template-columns: 70% 30%;
+  grid-gap:2em;
+  margin-left:2em;
+  margin-right:-5em;
 }
 
+.lwrap{
+  display:flex;
+  flex-direction:column;
+}
 
-
-
+.rwrap{
+  display:flex;
+  flex-direction: column;
+  }
+    
+    
 
     
-    /*LEFT HEADING SECTION*/
+/*VIDEO SECTION STRUCTURE*/
+/*Code attribution-Explaination  from https://coolestguidesontheplanet.com/videodrome/youtube/*/
+/*Hack to allow for responsive video embedded to aspect ratio*/
+
+.lwrap-vidwrap {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*LEFT HEADING SECTION*/
+
      
+.lwrap-hwrap_hgrp :first-child{ 
+    color:black;
+    font-family: 'Roboto',Arial, sans-serif;
+    font-size:18px;
+    font-weight:400;
+    line-height:1.5em;
+    letter-spacing:normal;
+    vertical-align:baseline;
+    word-spacing:0px;
+   
+}
 
+  .hgrp_flexbox_views{ 
+    color:#606060;
+    line-height: 3em;
+    font-size: .8em;
+    font-weight: lighter;
+    font-family: 'Roboto',Arial, sans-serif;
 
-
-
-
-      .lwrap-hwrap_hgrp_flexbox :only-child{
-        color:green;
-      }
-      /*Selector not working*/
-     
-      .lwrap-hwrap_hgrp :first-child{ /*Selector not working- Gremlins here*/
-        color:yellow;
-        font-family: 'Roboto', sans-serif;
-        font-size:medium;
-        font-weight:4005000;
-        line-height:1.5em;
-        word-spacing:normal;
-
-
-      }
-
-      .chicken{
-
-        color:pink;
       }
   
+
+      .views{
+        display:inline;
+
+
+      }
       .lwrap-hwrap_hgrp_flexbox_btnsnavbar {
+        display:block;
+        float:right;
         background-color: red;
         list-style-type: none;
         text-align: right; 
-        padding: 0;
-        margin-bottom:solid red;
-        margin: 0% 20%; /*Margin length CSS Property for hand underline*/ 
+        padding: 0em 1em 0em 1em;
+        align-items: right;   
+        float:right;
+         }
 
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar .btn{
+        display:inline;
+        padding:020px;
+        color:#787878;
+        margin-left: 2em;
       }
 
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar li{
-        display:inline;
+      /*Targeting specific button children*/
 
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :first-child{
+      }
+
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
+      }
+
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
+      }
+
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
+      }   
+      
+      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
+      }
+
+      .fas{
+        color:rgb(187, 172, 172);
+      }
+
+      .fas  {
+
+        color:gray;
       }
 
 
@@ -155,18 +155,23 @@ nobr {
 
       /*SUBSCRIBER SECTION*/
 
-      .lwrap_hwrap_inline_subinfo {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+      .lwrap_hwrap_inline{
+        display:block;
       }
 
-      .inline_subinfo_head {
-        display: block;
-        width: 60px;
-        background-color: #dddddd;
+      .lwrap_hwrap_inline_subpic{
+        display:inline-block;
+        height:54px;
+        width:53px;
+        border-radius: 5px;
+
+      }
+      .lwrap_hwrap_inline-tags{
+        display:inline;
+
       }
 
+      
     /* 1st Button class */
       .lwrap_hwrap_inline_btn{
         background-color:red; /* Green */
@@ -175,8 +180,9 @@ nobr {
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
+        display: inline;
         font-size: 16px;
+        align-items: left;
       }
 
 
@@ -185,18 +191,26 @@ nobr {
       /*2nd Button class */
 
       .showmore{
-        background-color:red;
-        border: none;
-        color: white;
+        position:relative;
+        display:block;
+        background-color:transparent;
+        border: solid pink;
+        color: blue;
         padding: 15px 32px;
-        text-align: center;
+        align-items: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
       }
 
-      .lwrap_hwrap_inline_listed {
-        list-style-image: url('sqpurple.gif');
+      .lwrap_hwrap_inline_cmtssort-text{
+        display:block;
+      }
+
+
+      .lwrap_hwrap_inline_cmtssort-text li{
+        list-style: none;
+        display:inline;
+
       }
 
 
@@ -210,4 +224,37 @@ nobr {
      /*GENERAL COMMENT SECTION*/
      .lwrap_hwrap_inline_listed_general {
      list-style-image: url('sqpurple.gif');
+    }
+
+
+
+    .rwrap-thumb{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    }
+
+
+
+
+    .rwrap-vidwrap {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+    }
+    
+    .videothumb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+
+
+
+    .quick_icons{
+      left:100px;
+      text-align: right;
     }
