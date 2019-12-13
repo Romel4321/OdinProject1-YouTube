@@ -20,10 +20,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-/*
+
 *{
   border: 1px solid green !important;
-} 
+}
 
 * {
 	text-decoration: none;
@@ -43,7 +43,7 @@ dfn, i, cite, var, address, em {
 	}
 th, b, strong, h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  color:yellow;
+  color:black;
 	}
 a, img, a img, iframe, form, fieldset,
 abbr, acronym, object, applet, table {
@@ -93,7 +93,10 @@ nobr {
 	white-space: normal;
     }
 
-
+    /*fontawesome*/
+    i{
+      font-family: "Font Awesome 5 Free"! important;
+    }
     /*NAVIGATION BAR*/
     .navbar{
       display: block;
@@ -104,7 +107,7 @@ nobr {
       padding-bottom: 10px;
       background-color: white;
       margin-bottom: 30px;
-
+      color:  #606060;
     }
 
     .navbar_left-section-wrapper{
@@ -159,14 +162,14 @@ nobr {
     position:relative;
     top: 3px;
     padding: 0 13px 0 13px;
+		opacity: .6;
     }
 
 .navbar_right-section-wrapper_bold-text{
     padding: 0 13px 0 13px;
     color: blue;
-
-
 }
+
 
 
 /*OVERALL MAIN SECTION STRUCTURE*/
@@ -188,10 +191,10 @@ nobr {
   display:flex;
   flex-direction: column;
   }
-    
-    
 
-    
+
+
+
 /*VIDEO SECTION STRUCTURE*/
 /*Code attribution-Explaination  from https://coolestguidesontheplanet.com/videodrome/youtube/*/
 /*Hack to allow for responsive video embedded to aspect ratio*/
@@ -213,79 +216,56 @@ nobr {
 
 /*LEFT HEADING SECTION*/
 
-     
-.lwrap-hwrap_hgrp :first-child{ 
-    color:black;
-    font-family: 'Roboto',Arial, sans-serif;
-    font-size:18px;
-    font-weight:400;
-    line-height:1.5em;
-    letter-spacing:normal;
-    vertical-align:baseline;
-    word-spacing:0px;
-   
+
+.lwrap-hwrap_hgrp_flexbox :only-child{
+  color:green;
+}
+/*Selector not working*/
+
+.lwrap-hwrap_hgrp :first-child{ /*Selector not working- Gremlins here*/
+
+  font-family: 'Roboto', sans-serif;
+  font-size:medium;
+  font-weight:4005000;
+  line-height:1.5em;
+  word-spacing:normal;
 }
 
-  .hgrp_flexbox_views{ 
-    color:#606060;
-    line-height: 3em;
-    font-size: .8em;
-    font-weight: lighter;
-    font-family: 'Roboto',Arial, sans-serif;
+.lwrap-hwrap_hgrp_flexbox_btnsnavbar {
+  list-style-type: none;
+  text-align: right;
+  padding: 0;
+  margin-bottom:solid red;
+  /*margin: 0% 20%; */ /*Margin length CSS Property for hand underline*/
 
-      }
-  
+}
 
-      .views{
-        display:inline;
+.lwrap-hwrap_hgrp_flexbox_btnsnavbar li{
+  display:inline-block;
+  color: #606060;
 
-
-      }
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar {
-        display:block;
-        float:right;
-        background-color: red;
-        list-style-type: none;
-        text-align: right; 
-        padding: 0em 1em 0em 1em;
-        align-items: right;   
-        float:right;
-         }
-
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar .btn{
-        display:inline;
-        padding:020px;
-        color:#787878;
-        margin-left: 2em;
-      }
-
-      /*Targeting specific button children*/
-
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :first-child{
-      }
-
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
-      }
-
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
-      }
-
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
-      }   
-      
-      .lwrap-hwrap_hgrp_flexbox_btnsnavbar :nth-child(){
-      }
-
-      .fas{
-        color:rgb(187, 172, 172);
-      }
-
-      .fas  {
-
-        color:gray;
-      }
+}
 
 
+#playlist-plus{
+  opacity: .6;
+  position: relative;
+  top: 7px;
+}
+#views{
+  color: #606060;
+}
+
+aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
+  padding: 0 8px 6px 8px;
+}
+
+#counter{
+  border-image: linear-gradient(to right, #606060 95%, #DDDDDD 5%);
+  border-image-slice: 1;
+  border-image-width: 0px 0px 3px 0px;
+
+}
 
 
       /*SUBSCRIBER SECTION*/
@@ -306,7 +286,7 @@ nobr {
 
       }
 
-      
+
     /* 1st Button class */
       .lwrap_hwrap_inline_btn{
         background-color:red; /* Green */
@@ -377,7 +357,7 @@ nobr {
       height: 0;
       padding-bottom: 56.25%;
     }
-    
+
     .videothumb {
       position: absolute;
       top: 0;
@@ -385,7 +365,7 @@ nobr {
       width: 100%;
       height: 100%;
     }
-    
+
 
 
 
