@@ -366,10 +366,34 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       height: 100%;
     }
 
-
-
-
     .quick_icons{
       left:100px;
       text-align: right;
+    }
+
+    /*RIGHT WRAP*/
+
+    #upnexttxt{
+    position: relative;
+    float: left;
+    padding-top: 13px;
+    }
+
+
+    #autoplay{
+      position: relative;
+      float: right;
+    }
+
+    #autoplaytxt{
+      position: relative;
+      padding-top: 13px;
+      float: left;
+
+    }
+
+    #upnextimg{
+      position: relative;
+      float: right;
+      transform: scale(.8);
     }
