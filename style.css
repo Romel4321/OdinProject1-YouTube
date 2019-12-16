@@ -29,9 +29,17 @@
 	text-decoration: none;
 	font-size: 1em;
 	outline: none;
-	padding: 0;
-	margin: 0;
-	}
+	padding:0px;
+  margin:0px;
+}
+
+body{
+  padding:0px;
+  margin:0px;
+  max-width:100%;
+  }
+
+	
 code, kbd, samp, pre, tt, var, textarea,
 input, select, isindex, listing, xmp, plaintext {
 	white-space: normal;
@@ -162,7 +170,7 @@ nobr {
     position:relative;
     top: 3px;
     padding: 0 13px 0 13px;
-		opacity: .6;
+    opacity: .6;
     }
 
 .navbar_right-section-wrapper_bold-text{
@@ -175,21 +183,30 @@ nobr {
 /*OVERALL MAIN SECTION STRUCTURE*/
 
 .mainwrap{
-  display: GRID;
+  display:grid;
   grid-template-columns: 70% 30%;
-  grid-gap:2em;
-  margin-left:2em;
-  margin-right:-5em;
+  grid-gap:1em;
+  margin-left:5em;
+  max-height:100%;
+  /*grid-template-columns: repeat( auto-fill, minmax(500px, 1fr) );*/
+  max-width: 85%;
 }
 
 .lwrap{
   display:flex;
   flex-direction:column;
+  box-sizing:border-box;
+  margin-left:0px;
 }
 
 .rwrap{
   display:flex;
   flex-direction: column;
+  box-sizing: border-box;
+  margin-right: 60px;
+  /*overflow-x:hidden;*/
+  
+  
   }
 
 
@@ -201,7 +218,7 @@ nobr {
 
 .lwrap-vidwrap {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 0;
   padding-bottom: 56.25%;
 }
@@ -270,34 +287,67 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
       /*SUBSCRIBER SECTION*/
 
+    .lwap_hwrap_sub{
+      display:block;
+    
+    }
+
+
+      .lwrap_hwrap_sub :nth-child(2){
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        line-height: 1.2em;
+        font-size: .8em;
+        width:45%;
+      }
+
+
+
       .lwrap_hwrap_inline{
         display:block;
+        position:relative;
+        top:.5em;
       }
 
       .lwrap_hwrap_inline_subpic{
-        display:inline-block;
-        height:54px;
-        width:53px;
-        border-radius: 5px;
+        display:block;
+        height:30px;
+        width:30px;
+        border-radius: 69px;
+        right:20em;
 
       }
       .lwrap_hwrap_inline-tags{
-        display:inline;
+        position:relative;
+        display:block;
+        left:0px;
+        bottom:45px;
+        left:40px;
+      }
+      .lwrap_hwrap_inline-tags :first-child{
+        font-family: 'Roboto', sans-serif;
+        padding-top:0px;
+      }
 
+
+
+      .subscriber_num{
+        font-family: 'Roboto', sans-serif;
       }
 
 
     /* 1st Button class */
       .lwrap_hwrap_inline_btn{
+        position: absolute;
         background-color:red; /* Green */
         border: none;
         color: white;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline;
         font-size: 16px;
-        align-items: left;
+        left:670px;
+        bottom:50px;
       }
 
 
@@ -312,7 +362,6 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
         border: solid pink;
         color: blue;
         padding: 15px 32px;
-        align-items: center;
         text-decoration: none;
         font-size: 16px;
       }
@@ -331,31 +380,80 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
       /* MY COMMENT SECTION*/
 
-      .lwrap_hwrap_inline_listed {
-        list-style-image: url('sqpurple.gif');
-      }
+    
 
 
      /*GENERAL COMMENT SECTION*/
-     .lwrap_hwrap_inline_listed_general {
-     list-style-image: url('sqpurple.gif');
+    
+
+    .lwrap_hwrap_inline_listed_general{
+      display:flex;
+    }
+
+    .lwrap_hwrap_inline-gcomment-img{
+      display:block;
+      height:30px;
+      width:30px;
+      border-radius: 69px;
+      right:20em;
+    }
+
+    .lwrap_hwrap_inline_listed_general > span > h6{
+      font-family: 'Roboto', sans-serif; 
+      font-size:.8em;
+
     }
 
 
+
+
+    /*RIGHT WRAP- TOP PART BLOCK*/
+
+    #upnexttxt{
+      position: relative;
+      float: left;
+      padding-top: 13px;
+      font-family: 'Roboto', sans-serif;
+      }
+  
+      #autoplay{
+        position: relative;
+        float: right;
+        font-family: 'Roboto', sans-serif;
+      }
+  
+      #autoplaytxt{
+        position: relative;
+        padding-top: 13px;
+        float: left;
+        font-family: 'Roboto', sans-serif;
+      }
+  
+      #upnextimg{
+        position: relative;
+        float: right;
+        transform: scale(.8);
+        font-family: 'Roboto', sans-serif;
+      }
+  
+
+
+
+
+     /*RIGHT THUMB COMMENT & VIDEO SECTION*/
 
     .rwrap-thumb{
     display: grid;
     grid-template-columns: 30% 70%;
+    margin-top: .5em;
     }
-
-
-
 
     .rwrap-vidwrap {
       position: relative;
       width: 100%;
-      height: 0;
+      max-height: 100%;
       padding-bottom: 56.25%;
+      
     }
 
     .videothumb {
@@ -366,34 +464,36 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       height: 100%;
     }
 
+    .rwrap-blurb :first-child{
+      font-size: 1em;
+      font-weight:600;
+      font-family: 'Roboto',Arial, Helvetica, sans-serif;
+      margin-bottom:.3em;    
+    }
+
+    .rwrap-blurb :nth-child(2){
+      line-height:1em;
+      font-size: 1em;
+      font-weight:light;
+      font-family: 'Roboto',Arial, Helvetica, sans-serif;
+      color:grey;
+      margin-bottom:.3em;    
+    }
+
+    .rwrap-blurb :last-child{
+      line-height:1em;
+      font-size: 0.8em;
+      font-weight:light;
+      font-family: 'Roboto',Arial, Helvetica, sans-serif;
+      color:grey;
+      margin-bottom:1em;    
+    }
+
+
     .quick_icons{
       left:100px;
       text-align: right;
     }
 
-    /*RIGHT WRAP*/
-
-    #upnexttxt{
-    position: relative;
-    float: left;
-    padding-top: 13px;
-    }
 
 
-    #autoplay{
-      position: relative;
-      float: right;
-    }
-
-    #autoplaytxt{
-      position: relative;
-      padding-top: 13px;
-      float: left;
-
-    }
-
-    #upnextimg{
-      position: relative;
-      float: right;
-      transform: scale(.8);
-    }
