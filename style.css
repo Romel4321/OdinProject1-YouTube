@@ -289,7 +289,6 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
     .lwap_hwrap_sub{
       display:block;
-
     }
 
 
@@ -301,7 +300,12 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
         padding: 0 0 0 10px;
       }
 
+      .lwrap_hwrap_sub > :nth-child(2){
+        font-family:'Roboto', sans-serif; 
+        padding-left: 5.8em;
+        padding-right:30%;
 
+      }
 
       .lwrap_hwrap_inline{
         display:flex;
@@ -356,14 +360,17 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
       .showmore{
      position:relative;
-     display:block;
      background-color:transparent;
-     border: solid pink;
-     color: blue;
      padding: 15px 32px;
      align-items: center;
      text-decoration: none;
      font-size: 16px;
+     border: none;
+     padding: 5px 5px;
+     text-align: center;
+     text-decoration: none;
+     color:black;
+     margin-left: 4.4em;
    }
 
    #drop-down{
