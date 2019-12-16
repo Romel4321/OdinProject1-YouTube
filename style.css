@@ -39,7 +39,7 @@ body{
   max-width:100%;
   }
 
-	
+
 code, kbd, samp, pre, tt, var, textarea,
 input, select, isindex, listing, xmp, plaintext {
 	white-space: normal;
@@ -205,8 +205,8 @@ nobr {
   box-sizing: border-box;
   margin-right: 60px;
   /*overflow-x:hidden;*/
-  
-  
+
+
   }
 
 
@@ -289,7 +289,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
     .lwap_hwrap_sub{
       display:block;
-    
+
     }
 
 
@@ -298,31 +298,30 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
         font-weight: lighter;
         line-height: 1.2em;
         font-size: .8em;
-        width:45%;
+        padding: 0 0 0 10px;
       }
 
 
 
       .lwrap_hwrap_inline{
-        display:block;
-        position:relative;
+        display:flex;
+        align-items: center;
         top:.5em;
       }
 
       .lwrap_hwrap_inline_subpic{
         display:block;
-        height:30px;
-        width:30px;
-        border-radius: 69px;
-        right:20em;
+        height:60px;
+        width:60px;
+        border-radius: 50px;
+
 
       }
       .lwrap_hwrap_inline-tags{
-        position:relative;
+
         display:block;
         left:0px;
-        bottom:45px;
-        left:40px;
+
       }
       .lwrap_hwrap_inline-tags :first-child{
         font-family: 'Roboto', sans-serif;
@@ -338,16 +337,16 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
     /* 1st Button class */
       .lwrap_hwrap_inline_btn{
-        position: absolute;
+
         background-color:red; /* Green */
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 5px 5px;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
-        left:670px;
-        bottom:50px;
+        margin-left:auto;
+        border-radius: 5%;
       }
 
 
@@ -356,35 +355,44 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       /*2nd Button class */
 
       .showmore{
-        position:relative;
-        display:block;
-        background-color:transparent;
-        border: solid pink;
-        color: blue;
-        padding: 15px 32px;
-        text-decoration: none;
-        font-size: 16px;
-      }
+     position:relative;
+     display:block;
+     background-color:transparent;
+     border: solid pink;
+     color: blue;
+     padding: 15px 32px;
+     align-items: center;
+     text-decoration: none;
+     font-size: 16px;
+   }
 
-      .lwrap_hwrap_inline_cmtssort-text{
-        display:block;
-      }
+   #drop-down{
+   position: relative;
+   transform: scale(.7);
+   bottom: 8px;
+   opacity: .7;
+   }
 
 
-      .lwrap_hwrap_inline_cmtssort-text li{
-        list-style: none;
-        display:inline;
+   .lwrap_hwrap_inline_cmtssort-text{
+     display:flex;
 
-      }
+   }
 
+
+   .lwrap_hwrap_inline_cmtssort-text li{
+     list-style: none;
+     display:inline;
+
+   }
 
       /* MY COMMENT SECTION*/
 
-    
+
 
 
      /*GENERAL COMMENT SECTION*/
-    
+
 
     .lwrap_hwrap_inline_listed_general{
       display:flex;
@@ -399,7 +407,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
     }
 
     .lwrap_hwrap_inline_listed_general > span > h6{
-      font-family: 'Roboto', sans-serif; 
+      font-family: 'Roboto', sans-serif;
       font-size:.8em;
 
     }
@@ -415,27 +423,27 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       padding-top: 13px;
       font-family: 'Roboto', sans-serif;
       }
-  
+
       #autoplay{
         position: relative;
         float: right;
         font-family: 'Roboto', sans-serif;
       }
-  
+
       #autoplaytxt{
         position: relative;
         padding-top: 13px;
         float: left;
         font-family: 'Roboto', sans-serif;
       }
-  
+
       #upnextimg{
         position: relative;
         float: right;
         transform: scale(.8);
         font-family: 'Roboto', sans-serif;
       }
-  
+
 
 
 
@@ -453,7 +461,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       width: 100%;
       max-height: 100%;
       padding-bottom: 56.25%;
-      
+
     }
 
     .videothumb {
@@ -468,7 +476,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       font-size: 1em;
       font-weight:600;
       font-family: 'Roboto',Arial, Helvetica, sans-serif;
-      margin-bottom:.3em;    
+      margin-bottom:.3em;
     }
 
     .rwrap-blurb :nth-child(2){
@@ -477,7 +485,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       font-weight:light;
       font-family: 'Roboto',Arial, Helvetica, sans-serif;
       color:grey;
-      margin-bottom:.3em;    
+      margin-bottom:.3em;
     }
 
     .rwrap-blurb :last-child{
@@ -486,7 +494,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       font-weight:light;
       font-family: 'Roboto',Arial, Helvetica, sans-serif;
       color:grey;
-      margin-bottom:1em;    
+      margin-bottom:1em;
     }
 
 
@@ -494,6 +502,3 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       left:100px;
       text-align: right;
     }
-
-
-
