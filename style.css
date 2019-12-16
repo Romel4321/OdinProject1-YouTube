@@ -401,12 +401,22 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
      /*GENERAL COMMENT SECTION*/
 
 
-    .lwrap_hwrap_inline_listed_general{
+
+
+
+
+    .lwrap_hwrap_inline_generalcomment{
+      display:flex;
     
     }
 
+
+   .lwrap_hwrap_inline_listed_general{ 
+     margin-left: 10px;
+   }
+
     .lwrap_hwrap_inline-gcomment-img{
-      display:block;
+    
       height:50px;
       width:50px;
       border-radius: 50px;
@@ -416,6 +426,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
     .lwrap_hwrap_inline_listed_general > span > h6{
       font-family: 'Roboto', sans-serif;
       font-size:.8em;
+      font-weight: bold;
     }
 
     .lwrap_hwrap_inline_listed_general > span > :first-child{
@@ -423,6 +434,19 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
     }
     .lwrap_hwrap_inline_generalcomment > ul > :nth-child(2){
       margin-left:10px;
+    }
+
+    .lwrap_hwrap_inline_generalcomment > div > :last-child{
+      margin-top:10px;
+      color:#606060;
+    }
+
+    .comment_name{
+      font-weight:bold;
+    }
+
+    .comment_time{
+      color: #606060;
     }
 
 
