@@ -22,7 +22,7 @@
 
 
 *{
-  border: 1px solid green !important;
+ 
 }
 
 * {
@@ -330,12 +330,14 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       .lwrap_hwrap_inline-tags :first-child{
         font-family: 'Roboto', sans-serif;
         padding-top:0px;
+        font-weight: bold;
       }
 
 
 
       .subscriber_num{
         font-family: 'Roboto', sans-serif;
+        color: #606060;
       }
 
 
@@ -369,8 +371,8 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
      padding: 5px 5px;
      text-align: center;
      text-decoration: none;
-     color:black;
-     margin-left: 4.4em;
+     color:#606060;
+     margin: .5em 0em .5em 4.4em;
    }
 
    #drop-down{
@@ -457,12 +459,13 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       float: left;
       padding-top: 13px;
       font-family: 'Roboto', sans-serif;
-      }
+      font-weight:bold;      }
 
       #autoplay{
         position: relative;
         float: right;
         font-family: 'Roboto', sans-serif;
+        color: #606060;
       }
 
       #autoplaytxt{
