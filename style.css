@@ -166,7 +166,6 @@ i{
 .navbar_right-section-wrapper_bold-text{
   color: blue;
   padding: 0 13px 0 13px;
-
 }
 
 /*OVERALL MAIN SECTION STRUCTURE*/
@@ -305,8 +304,7 @@ padding-left: 8px;
 .subscriber_num{
   color: #606060;
   margin-left: 2px;
-
-
+  font-size: medium !important;
 }
 
 /* 1st Button class */
