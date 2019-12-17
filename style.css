@@ -217,10 +217,6 @@ i{
 /*LEFT HEADING SECTION*/
 
 
-.lwrap-hwrap_hgrp_flexbox :only-child{
-  color:green;
-}
-
 .lwrap-hwrap_hgrp :first-child{
   line-height:1.5em;
 }
@@ -266,7 +262,14 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
   font-size: .8em;
   font-weight: lighter;
   line-height: 1.2em;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 7px;
+
+}
+
+#username{
+font-size: medium;
+font-weight: bold;
+padding-left: 8px;
 }
 
 .lwrap_hwrap_sub > :nth-child(2){
@@ -298,8 +301,12 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
   padding-top:0;
 }
 
+
 .subscriber_num{
   color: #606060;
+  margin-left: 2px;
+
+
 }
 
 /* 1st Button class */
