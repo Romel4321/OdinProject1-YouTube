@@ -22,7 +22,7 @@
 
 
 *{
- 
+
 }
 
 * {
@@ -301,7 +301,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       }
 
       .lwrap_hwrap_sub > :nth-child(2){
-        font-family:'Roboto', sans-serif; 
+        font-family:'Roboto', sans-serif;
         padding-left: 5.8em;
         padding-right:30%;
 
@@ -380,6 +380,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
    transform: scale(.7);
    bottom: 8px;
    opacity: .7;
+   margin-left: 20px;
    }
 
 
@@ -392,6 +393,7 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
    .lwrap_hwrap_inline_cmtssort-text li{
      list-style: none;
      display:inline;
+     color: #606060;
 
    }
 
@@ -409,16 +411,18 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
 
     .lwrap_hwrap_inline_generalcomment{
       display:flex;
-    
+      margin-bottom: 20px;
+
+
     }
 
 
-   .lwrap_hwrap_inline_listed_general{ 
+   .lwrap_hwrap_inline_listed_general{
      margin-left: 10px;
    }
 
     .lwrap_hwrap_inline-gcomment-img{
-    
+
       height:50px;
       width:50px;
       border-radius: 50px;
@@ -443,12 +447,18 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       color:#606060;
     }
 
+  .comments_reply{
+  margin-left: 10px;
+
+  }
+
     .comment_name{
       font-weight:bold;
     }
 
     .comment_time{
       color: #606060;
+      margin-left: 5px;
     }
 
 
@@ -540,3 +550,21 @@ aside.lwrap-hwrap_hgrp_flexbox_btnsnavbar>ul>li>ul>li{
       left:100px;
       text-align: right;
     }
+
+
+/*youtube video*/
+
+.ytp-large-play-button{
+  z-index:-63 !important;
+}
+
+
+
+.ytp-title-channel-logo{
+  width:0px !important;
+}
+
+
+.ytp-title-text{
+  color:transparent !important;
+}
