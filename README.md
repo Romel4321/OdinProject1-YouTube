@@ -36,7 +36,7 @@ It comprised of the video thumbnails.
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Romel4321/YouTubeMC-Project1/4f19fefc6075b583cda07731601fa76b594ce0f9/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Romel4321/YouTubeMC-Project1/13432bbc0198c18094ab83212e697cc1d241bed0/index.html)
 
 
 ## Authors
