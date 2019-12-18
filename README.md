@@ -12,21 +12,21 @@ Collaborative Project with peer to create a YouTube clone, using basic HTML and 
 
 - The project was not prepared for mobile use and no mobile queries were used.
 
-- The main areas of the project can be divided as follows
+- The main areas of the project can be divided as follows:
 
   ###### Navigation Section
 The navigation Section included the logo, the search bar and varius functional buttons
 
-  ##### Main View Pane
-  which was subdivided into two separate grids
+  ###### Main View Pane
+  It was subdivided into two separate grids
 Right grid
 Left grid
 
   ###### Left Greed
-It comprised the main image. The main subscriber information and viewer
+It comprised the main image, the main subscriber information and viewer
 
   ###### Right grid
-It comprised of the video thumbnails.
+It comprised the video thumbnails.
 
 ## Built With
 
