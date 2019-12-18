@@ -8,24 +8,24 @@ Collaborative Project with peer to create a YouTube clone, using basic HTML and 
 
 
 
-#### The main focus of the project was the embedding of videos and images.
+#### I. The main focus of the project was the embedding of videos and images.
 
-- The project was not prepared for mobile use and no mobile queries were used.
+#### II. The project was not prepared for mobile use and no mobile queries were used.
 
-- The main areas of the project can be divided as follows:
+#### III. The main areas of the project can be divided as follows:
 
-  ###### Navigation Section
+  ###### &nbsp; Navigation Section
 The navigation Section included the logo, the search bar and varius functional buttons
 
-  ###### Main View Pane
+  ###### &nbsp; Main View Pane
   It was subdivided into two separate grids
 Right grid
 Left grid
 
-  ###### Left Greed
+  ###### &nbsp; Left Greed
 It comprised the main image, the main subscriber information and viewer
 
-  ###### Right grid
+  ###### &nbsp; Right grid
 It comprised the video thumbnails.
 
 ## Built With
@@ -36,7 +36,7 @@ It comprised the video thumbnails.
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Romel4321/YouTubeMC-Project1/13432bbc0198c18094ab83212e697cc1d241bed0/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Romel4321/YouTubeMC-Project1/9e07988c689e1dd7503a765af363e63f3741abe4/index.html)
 
 
 ## Authors
